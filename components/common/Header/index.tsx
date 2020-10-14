@@ -1,10 +1,14 @@
 import React from 'react';
 import Link from 'next/link'
-import {StyledHeader, NavLinks} from "./styles";
+import {StyledHeader, Logo, NavLinks} from "./styles";
+import {Emoji} from '../../ui';
 
 export const Header : React.FC = () => (
     <StyledHeader>
-        <h3>:)</h3>
+        <Logo>
+            <Emoji label={'lion'} symbol={'🦁'} />
+            <span>Isak Leon</span>
+        </Logo>
         <NavLinks>
             <Link href='/'>Home</Link>
             <Link href='/about'>About</Link>
