@@ -17,8 +17,8 @@ export const projects : Project[] = [
         skills: ['React', 'Redux', 'Ruby on Rails', 'PostgreSQL', 'AWS'],
         imgPath: '/viewtube.jpg',
         alt: 'viewtube-img',
-        githubUrl: '',
-        liveUrl: ''
+        githubUrl: 'https://github.com/leon-i/ViewTube',
+        liveUrl: 'https://viewtubeapp.herokuapp.com/#/'
     },
     {
         name: 'Creative-Runeterra',
@@ -26,8 +26,8 @@ export const projects : Project[] = [
         skills: ['React', 'Redux', 'TypeScript'],
         imgPath: '/creative_runeterra.jpg',
         alt: 'creative-runeterra-img',
-        githubUrl: '',
-        liveUrl: ''
+        githubUrl: 'https://github.com/leon-i/LoR_Cardmaker',
+        liveUrl: 'https://creative-runeterra.netlify.app/#/'
     },
     {
         name: 'Divekicker',
@@ -35,8 +35,8 @@ export const projects : Project[] = [
         skills: ['HTML5 Canvas', 'JavaScript'],
         imgPath: '/divekicker.jpg',
         alt: 'divekicker-img',
-        githubUrl: '',
-        liveUrl: ''
+        githubUrl: 'https://github.com/leon-i/Divekicker',
+        liveUrl: 'https://leon-i.github.io/Divekicker/'
     },
     {
         name: 'Streamlined',
@@ -44,7 +44,7 @@ export const projects : Project[] = [
         skills: ['React', 'Redux', 'Express.js', 'Node.js', 'MongoDB'],
         imgPath: '/streamlined.jpg',
         alt: 'streamlined-img',
-        githubUrl: '',
-        liveUrl: ''
+        githubUrl: 'https://github.com/leon-i/Streamlined',
+        liveUrl: 'http://streamlinedapp.herokuapp.com/#/'
     },
 ]
