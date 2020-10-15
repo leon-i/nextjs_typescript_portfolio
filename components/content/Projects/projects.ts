@@ -11,7 +11,7 @@ export interface Project {
 export const projects : Project[] = [
     {
         name: 'ViewTube',
-        description: 'Fullstack YouTube clone. Features include comments built with polymorphic associations, ' +
+        description: 'Fullstack YouTube clone. Includes comments built with polymorphic associations, ' +
             'video/thumbnail upload, ' +
             'as well as video search by title/uploader.',
         skills: ['React', 'Redux', 'Ruby on Rails', 'PostgreSQL', 'AWS'],
