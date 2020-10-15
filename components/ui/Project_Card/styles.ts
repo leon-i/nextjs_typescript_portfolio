@@ -27,8 +27,7 @@ export const Wrapper = styled.div`
     }
         
     p {
-        display: inline-block;
-        width: 95%;
+        flex: 1 auto;
         font-size: 0.825em;
         padding: 0.2em 0.5em;
         background: #6258e6;
