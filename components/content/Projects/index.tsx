@@ -8,8 +8,9 @@ export const Projects = () => (
         <h2>Projects</h2>
         <Grid>
             {
-                projects.map((project : Project) => (
-                    <ProjectCard name={project.name}
+                projects.map((project : Project, idx : number) => (
+                    <ProjectCard key={idx}
+                                 name={project.name}
                                  description={project.description}
                                  skills={project.skills}
                                  imgPath={project.imgPath}
