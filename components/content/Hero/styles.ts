@@ -51,7 +51,7 @@ export const Buttons = styled.div`
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    width: 70%;
+    width: 65%;
     
     svg {
         margin-right: 0.2em;
