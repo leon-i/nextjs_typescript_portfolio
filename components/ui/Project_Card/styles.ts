@@ -15,7 +15,7 @@ export const Wrapper = styled.div`
     box-shadow: 5.5px 5.5px 0px 0px rgba(0,0,0,0.8);
     
     h4 {
-        padding: 0.2em 0.5em 0.35em 0.5em;
+        padding: 0.2em 0.5em 0.32em 0.5em;
         background: #6258e6;
         border-radius: 2px;
     }
