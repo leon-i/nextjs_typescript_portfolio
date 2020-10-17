@@ -1,12 +1,4 @@
-export interface Project {
-    name : string;
-    description : string;
-    skills: string[];
-    imgPath : string;
-    alt : string;
-    githubUrl : string;
-    liveUrl : string;
-}
+import { Project } from "../../../interfaces";
 
 export const projects : Project[] = [
     {

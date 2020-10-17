@@ -1,13 +1,5 @@
 import styled from 'styled-components';
 
-export const Wrapper = styled.div`
-    padding: 0 4em;
-    
-    h2 {
-        margin-bottom: 0.75em;
-    }
-`
-
 export const Grid = styled.div`
     display: grid;
     align-items: center;

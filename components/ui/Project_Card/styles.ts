@@ -36,8 +36,7 @@ export const Wrapper = styled.div`
     }
     
     ${props => props.backgroundUrl && `
-        &::before {
-            content: '';
+        .background-img {
             position: absolute;
             top: 0;
             right: 0;
