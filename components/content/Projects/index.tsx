@@ -10,13 +10,7 @@ export const Projects = () => (
             {
                 projects.map((project, idx) => (
                     <ProjectCard key={idx}
-                                 name={project.name}
-                                 description={project.description}
-                                 skills={project.skills}
-                                 imgPath={project.imgPath}
-                                 alt={project.alt}
-                                 githubUrl={project.githubUrl}
-                                 liveUrl={project.liveUrl} />
+                                 {...project} />
                 ))
             }
         </Grid>
