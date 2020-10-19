@@ -8,11 +8,13 @@ export const Wrapper = styled.div`
     padding: 1em;
     color: #fff;
     background: #fff;
-    border-right: 1px solid rgba(0, 0, 0, 0.35);
-    border-bottom: 1px solid rgba(0, 0, 0, 0.35);
+    border-right: 1px solid rgba(0, 0, 0, 0.7);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.7);
     border-radius: 2px;
     opacity: 1;
     box-shadow: 5.5px 5.5px 0px 0px rgba(0,0,0,0.8);
+    transition: ease-in-out 0.2s;
+    cursor: pointer;
     
     h4 {
         padding: 0.2em 0.5em 0.32em 0.5em;
@@ -35,6 +37,17 @@ export const Wrapper = styled.div`
         opacity: 0.9;
     }
     
+    .card-link {
+        position: absolute;
+        height: 100%;
+        width: 100%;
+        z-index: 1;
+        top: 0;
+        right: 0;
+        left: 0;
+        bottom: 0;
+    }
+    
     ${props => props.backgroundUrl && `
         .background-img {
             position: absolute;
@@ -49,11 +62,18 @@ export const Wrapper = styled.div`
             background-blend-mode: darken;
         }
     `}
+    
+    &:hover {
+        border-right: 1px solid rgba(0, 0, 0, 0.8);
+        border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+        box-shadow: 3.5px 3.5px 0px 0px rgba(0,0,0,0.8);
+        transition: ease-in-out 0.2s;
+    }
 `;
 
 export const InnerWrapper = styled.div`
     position: relative;
-    z-index: 100;
+    z-index: 1;
     height: 100%;
 `
 

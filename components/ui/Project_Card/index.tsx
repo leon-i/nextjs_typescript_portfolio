@@ -35,5 +35,6 @@ liveUrl}) => (
                 }
             </Skills>
         </InnerWrapper>
+        <a href={liveUrl} target='_blank' rel='noopener noreferrer' className='card-link' />
     </Wrapper>
 )

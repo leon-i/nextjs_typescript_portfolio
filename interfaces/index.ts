@@ -18,3 +18,9 @@ export interface GithubResponse {
     starsUrl : string;
     forksUrl : string;
 }
+
+export interface OpenSourceProps {
+    covidWatchPortal: GithubResponse;
+    fightPandemics: GithubResponse;
+    covidWatchWebsite: GithubResponse;
+}
