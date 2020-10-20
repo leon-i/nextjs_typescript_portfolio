@@ -19,17 +19,27 @@ This is a WIP repo that will be updated as I rework my portfolio.
 * [ ] Mobile view  
 * [ ] Menu collapses into drawer on mobile
   
-### Landing  
+### Hero  
 * [x] Desktop view
 * [x] Tablet view  
 * [x] Mobile view  
-* [ ] Hover effects on project cards  
+  
+### Projects  
+* [x] Desktop view
+* [x] Tablet view  
+* [x] Mobile view  
+* [x] Hover effects on project cards  
+  
+### Open Source Contributions  
+* [x] Desktop view
+* [x] Tablet view  
+* [x] Mobile view  
+* [x] Hover effects on open source contribution cards  
   
 ## In Progress  
   
 **Components/Sections**
 * Footer  
-* Open Source Contributions  
 * Skills  
 * SEO  
   
