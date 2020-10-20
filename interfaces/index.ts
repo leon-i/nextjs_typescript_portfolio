@@ -17,6 +17,7 @@ export interface GithubResponse {
     forks : number;
     starsUrl : string;
     forksUrl : string;
+    framework : string;
 }
 
 export interface OpenSourceProps {

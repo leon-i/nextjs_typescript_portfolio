@@ -6,16 +6,19 @@ import { OpenSourceProps as Props } from "../../../interfaces";
 export const OpenSource : React.FC<Props> = ({ covidWatchPortal,
 fightPandemics,
 covidWatchWebsite }) => {
+    const fpShort = {
+        ...fightPandemics,
+        description: 'FightPandemics was born to make communities ' +
+            'more resilient to pandemics by facilitating access to information ' +
+            'and coordinated responses.'
+    }
+
     return (
         <Section>
-            <h2>Open Source Contributions</h2>
+            <h2>Open Source</h2>
             <Grid>
                 <GithubCard {...covidWatchPortal} />
-                <GithubCard {...Object.assign({},
-                    fightPandemics,
-                        { description: 'FightPandemics was born to make communities ' +
-                                'more resilient to pandemics by facilitating access to information ' +
-                                'and coordinated responses.'})} />
+                <GithubCard {...fpShort} />
                 <GithubCard {...covidWatchWebsite} />
             </Grid>
         </Section>

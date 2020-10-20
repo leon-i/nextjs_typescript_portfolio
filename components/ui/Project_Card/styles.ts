@@ -73,7 +73,6 @@ export const Wrapper = styled.div`
 
 export const InnerWrapper = styled.div`
     position: relative;
-    z-index: 1;
     height: 100%;
 `
 
@@ -85,9 +84,11 @@ export const Flex = styled.div`
 `;
 
 export const Icons = styled.div`
+    position: relative;
     display: flex;
     flex-direction: row;
     align-items: center;
+    z-index: 2;
     
     svg {
         font-size: 20px;

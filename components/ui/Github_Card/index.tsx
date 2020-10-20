@@ -1,7 +1,7 @@
 import React from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faStar, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
-import { Wrapper, InnerWrapper, Icons } from "./styles";
+import { Wrapper, InnerWrapper, Icons, Framework } from "./styles";
 import { GithubResponse as Props } from "../../../interfaces";
 
 export const GithubCard : React.FC<Props> = ({ name,
@@ -11,7 +11,8 @@ url,
 stars,
 forks,
 starsUrl,
-forksUrl }) => (
+forksUrl,
+framework}) => (
     <Wrapper>
         <img src={avatarUrl} alt={`${name.split('/').join('-')}-avatar`} />
         <InnerWrapper>
@@ -27,6 +28,7 @@ forksUrl }) => (
                                 <span>{forks}</span>
                         </a>
                 </Icons>
+                <Framework>{framework}</Framework>
         </InnerWrapper>
         <a href={url} target='_blank' rel='noopener noreferrer' className='card-link' />
     </Wrapper>

@@ -45,7 +45,7 @@ export const InnerWrapper = styled.div`
     height: 100%;
     
     h4 {
-        max-width: 95%;
+        max-width: 92%;
         overflow: hidden;
         white-space: nowrap;
         text-overflow: ellipsis;
@@ -73,6 +73,15 @@ export const Icons = styled.div`
     }
     
     span {
-        margin-left: 0.2em;
+        margin-left: 0.25em;
     }
+`;
+
+export const Framework = styled.span`
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    font-weight: bold;
+    font-size: 0.875em;
+    color: #6258e6;
 `;
