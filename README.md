@@ -12,7 +12,7 @@ This is a WIP repo that will be updated as I rework my portfolio.
 ## Current Progress  
   
 <img width="1256" alt="Screen Shot 2020-10-13 at 7 27 36 PM" src="https://user-images.githubusercontent.com/56734437/96068951-2d588e80-0e6b-11eb-861d-1b2268058230.png">  
-<img width="1246" alt="Screen Shot 2020-10-19 at 10 41 55 PM" src="https://user-images.githubusercontent.com/56734437/96533713-5bb7de80-125c-11eb-9f3e-85d64097048e.png">  
+<img width="1247" alt="Screen Shot 2020-10-19 at 10 44 12 PM" src="https://user-images.githubusercontent.com/56734437/96533885-b2251d00-125c-11eb-8dc9-dcb46525906c.png">  
   
 ### Header  
 * [x] Desktop view  
