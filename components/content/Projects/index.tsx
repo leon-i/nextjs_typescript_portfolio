@@ -1,24 +1,18 @@
 import React from 'react';
-import {Wrapper, Grid} from "./styles";
-import {ProjectCard, Button} from "../../ui";
-import {projects, Project} from "./projects";
+import {Grid} from "./styles";
+import {Section, ProjectCard} from "../../ui";
+import {projects} from "./projects";
 
 export const Projects = () => (
-    <Wrapper>
+    <Section>
         <h2>Projects</h2>
         <Grid>
             {
-                projects.map((project : Project, idx : number) => (
+                projects.map((project, idx) => (
                     <ProjectCard key={idx}
-                                 name={project.name}
-                                 description={project.description}
-                                 skills={project.skills}
-                                 imgPath={project.imgPath}
-                                 alt={project.alt}
-                                 githubUrl={project.githubUrl}
-                                 liveUrl={project.liveUrl} />
+                                 {...project} />
                 ))
             }
         </Grid>
-    </Wrapper>
+    </Section>
 )

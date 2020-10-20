@@ -3,16 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Wrapper, InnerWrapper, Flex, Icons, Skills } from "./styles";
-
-interface Props {
-    name : string;
-    description : string;
-    skills: string[];
-    imgPath : string;
-    alt : string;
-    githubUrl : string;
-    liveUrl : string;
-}
+import { Project as Props } from "../../../interfaces";
 
 export const ProjectCard : React.FC<Props> = ({ name,
 description,
@@ -22,6 +13,7 @@ alt,
 githubUrl,
 liveUrl}) => (
     <Wrapper backgroundUrl={imgPath}>
+        <span role='img' aria-label={alt} className='background-img' />
         <InnerWrapper>
             <Flex>
                 <h4>{name}</h4>
@@ -43,5 +35,6 @@ liveUrl}) => (
                 }
             </Skills>
         </InnerWrapper>
+        <a href={liveUrl} target='_blank' rel='noopener noreferrer' className='card-link' />
     </Wrapper>
 )
