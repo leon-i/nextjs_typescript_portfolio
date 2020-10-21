@@ -1,6 +1,6 @@
 import React from 'react';
 import { Layout } from "../components/skeleton";
-import { Hero, Projects, OpenSource } from "../components/content";
+import { Hero, Projects, OpenSource, Skills } from "../components/content";
 import { GithubResponse, OpenSourceProps as Props } from "../interfaces";
 
 export default function Home(props : Props) {
@@ -9,6 +9,7 @@ export default function Home(props : Props) {
         <Hero />
         <Projects />
         <OpenSource {...props} />
+        <Skills />
       </Layout>
   )
 };

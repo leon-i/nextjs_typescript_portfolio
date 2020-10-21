@@ -1,6 +1,6 @@
 import React from 'react';
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { Flex, Wrapper, Buttons, ImageWrapper } from "./styles";
 import { Button } from "../../ui";
 
