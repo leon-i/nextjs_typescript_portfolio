@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FaGithub } from "react-icons/fa";
 import { Flex, Wrapper, Buttons, ImageWrapper } from "./styles";
 import { Button } from "../../ui";
 
@@ -16,7 +15,7 @@ export const Hero : React.FC = () => (
             <Buttons>
                 <Button>Resume</Button>
                 <Button secondary>
-                    <FontAwesomeIcon icon={faGithub} />
+                    <FaGithub />
                     Github
                 </Button>
             </Buttons>

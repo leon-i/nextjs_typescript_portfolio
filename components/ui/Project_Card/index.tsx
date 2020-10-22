@@ -1,7 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faExternalLinkAlt } from '@fortawesome/free-solid-svg-icons';
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Wrapper, InnerWrapper, Flex, Icons, Skills } from "./styles";
 import { Project as Props } from "../../../interfaces";
 
@@ -19,10 +17,10 @@ liveUrl}) => (
                 <h4>{name}</h4>
                 <Icons>
                     <a href={githubUrl} target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faGithub} />
+                        <FaGithub />
                     </a>
                     <a href={liveUrl} target='_blank' rel='noopener noreferrer'>
-                        <FontAwesomeIcon icon={faExternalLinkAlt} style={{marginTop: '-2px'}} />
+                        <FaExternalLinkAlt style={{marginTop: '-2px'}} />
                     </a>
                 </Icons>
             </Flex>

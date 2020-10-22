@@ -1,6 +1,5 @@
 import React from 'react';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faStar, faCodeBranch } from '@fortawesome/free-solid-svg-icons';
+import { FaStar, FaCodeBranch } from 'react-icons/fa';
 import { Wrapper, InnerWrapper, Icons, Framework } from "./styles";
 import { GithubResponse as Props } from "../../../interfaces";
 
@@ -20,11 +19,11 @@ framework}) => (
                 <p>{description}</p>
                 <Icons>
                         <a href={starsUrl} target='_blank' rel='noopener noreferrer'>
-                                <FontAwesomeIcon icon={faStar} />
+                                <FaStar />
                                 <span>{stars}</span>
                         </a>
                         <a href={forksUrl} target='_blank' rel='noopener noreferrer'>
-                                <FontAwesomeIcon icon={faCodeBranch} style={{marginTop: '-2px'}} />
+                                <FaCodeBranch />
                                 <span>{forks}</span>
                         </a>
                 </Icons>
