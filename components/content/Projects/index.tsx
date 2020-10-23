@@ -1,5 +1,5 @@
 import React from 'react';
-import {Section, Grid, ProjectCard} from "../../ui";
+import {Section, Grid, ProjectCard} from "@ui";
 import {projects} from "./projects";
 
 export const Projects = () => (

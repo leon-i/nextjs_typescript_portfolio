@@ -12,7 +12,7 @@ SiHeroku,
 SiNetlify} from 'react-icons/si';
 import {FaNodeJs, FaAws, FaGitAlt} from 'react-icons/fa';
 import {ListWrapper, List} from "./styles";
-import {Section, Skill} from "../../ui/";
+import {Section, Skill} from "@ui";
 
 export const Skills : React.FC = () => (
     <Section>

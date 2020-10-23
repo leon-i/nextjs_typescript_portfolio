@@ -25,12 +25,6 @@ export const List  = styled.ul`
         color: #000;
     }
     
-    h4::after {
-        content: '';
-        display: block;
-        border-bottom: 2.5px solid #000;
-    }
-    
     svg, p {
         color: #e8175d;
     }

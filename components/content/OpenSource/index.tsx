@@ -1,6 +1,6 @@
 import React from 'react';
-import { Section, Grid, GithubCard } from "../../ui";
-import { OpenSourceProps as Props } from "../../../interfaces";
+import { Section, Grid, GithubCard } from "@ui";
+import { OpenSourceProps as Props } from "@interfaces";
 
 export const OpenSource : React.FC<Props> = ({ covidWatchPortal,
 fightPandemics,
