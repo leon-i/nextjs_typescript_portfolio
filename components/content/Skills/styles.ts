@@ -6,6 +6,10 @@ export const ListWrapper = styled.div`
     border-radius: 2px;
     background: transparent;
     box-shadow: 7px 7px 0px 0px rgba(0,0,0,0.8);
+    
+    @media (max-width: 576px) {
+        box-shadow: 5.5px 5.5px 0px 0px rgba(0,0,0,0.8);
+    }
 `;
 
 export const List  = styled.ul`

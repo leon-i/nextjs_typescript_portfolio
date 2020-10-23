@@ -2,6 +2,7 @@ import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { Flex, Wrapper, Buttons, ImageWrapper } from "./styles";
 import { Button } from "@ui";
+import { SocialLinks } from "@constants";
 
 export const Hero : React.FC = () => (
     <Flex>
@@ -14,7 +15,7 @@ export const Hero : React.FC = () => (
             </p>
             <Buttons>
                 <Button>Resume</Button>
-                <Button secondary>
+                <Button secondary href={SocialLinks.github} target='_blank' rel='noopener noreferrer'>
                     <FaGithub />
                     Github
                 </Button>

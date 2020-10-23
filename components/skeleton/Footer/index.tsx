@@ -1,11 +1,21 @@
 import React from 'react';
-import {StyledFooter, SocialLinks} from "./styles";
+import {FaLinkedin, FaAngellist, FaGithub} from "react-icons/fa";
+import {StyledFooter, SocialNav} from "./styles";
+import {SocialLinks} from '@constants';
 
 export const Footer : React.FC = () => (
     <StyledFooter>
-        <h4>I am the footer</h4>
-        <SocialLinks>
-            <a>link</a>
-        </SocialLinks>
+        <span>© Isak Leon 2020</span>
+        <SocialNav>
+            <a href={SocialLinks.linkedIn} target='_blank' rel='noopener noreferrer'>
+                <FaLinkedin />
+            </a>
+            <a href={SocialLinks.angelList} target='_blank' rel='noopener noreferrer'>
+                <FaAngellist />
+            </a>
+            <a href={SocialLinks.github} target='_blank' rel='noopener noreferrer'>
+                <FaGithub />
+            </a>
+        </SocialNav>
     </StyledFooter>
 );
