@@ -47,7 +47,6 @@ This is a WIP repo that will be updated as I rework my portfolio.
   
 **Components/Sections**
 * Footer  
-* Skills  
 * SEO  
   
 **Pages**  
