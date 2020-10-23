@@ -16,7 +16,7 @@ export const List  = styled.ul`
     flex-wrap: wrap;
     padding: 2em 3em 1em 3em;
     margin: 0;
-    background: rgba(0, 0, 0, 0.05);
+    background: rgba(0, 0, 0, 0.025);
     
     h4 {
         position: absolute;
