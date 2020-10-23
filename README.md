@@ -45,10 +45,15 @@ This is a WIP repo that will be updated as I rework my portfolio.
 * [x] Tablet view  
 * [x] Mobile view  
   
+### Footer  
+* [x] Desktop view
+* [x] Tablet view  
+* [x] Mobile view  
+* [x] Social links working
+  
 ## In Progress  
   
 **Components/Sections**
-* Footer  
 * SEO  
   
 **Pages**  
