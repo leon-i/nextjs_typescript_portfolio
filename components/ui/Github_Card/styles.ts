@@ -75,6 +75,15 @@ export const Icons = styled.div`
     span {
         margin-left: 0.25em;
     }
+    
+    svg {
+        display: inline-block;
+        width: 1.125em;
+        font-size: inherit;
+        height: 1em;
+        overflow: visible;
+        vertical-align: -0.125em;
+    }
 `;
 
 export const Framework = styled.span`

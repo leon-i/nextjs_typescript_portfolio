@@ -1,6 +1,5 @@
 import React from 'react';
-import { Grid } from "./styles";
-import { Section, GithubCard } from "../../ui";
+import { Section, Grid, GithubCard } from "../../ui";
 import { OpenSourceProps as Props } from "../../../interfaces";
 
 export const OpenSource : React.FC<Props> = ({ covidWatchPortal,
@@ -16,7 +15,7 @@ covidWatchWebsite }) => {
     return (
         <Section>
             <h2>Open Source</h2>
-            <Grid>
+            <Grid max={3}>
                 <GithubCard {...covidWatchPortal} />
                 <GithubCard {...fpShort} />
                 <GithubCard {...covidWatchWebsite} />
