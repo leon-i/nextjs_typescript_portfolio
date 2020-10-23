@@ -7,7 +7,7 @@ export const Skill = styled.li`
     margin-top: 0.5em;
     color: #fff;
     
-    svg {
+    svg, img {
         height: 64px;
         width: 64px;
         margin: 0 auto;
@@ -19,7 +19,7 @@ export const Skill = styled.li`
     }
     
     @media (max-width: 576px) {
-        svg {
+        svg, img {
             height: 56px;
             width: 56px;
         }
