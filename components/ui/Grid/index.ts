@@ -21,6 +21,9 @@ export const Grid = styled.div`
     }
     
     @media(min-width: 1200px) {
-        grid-template-columns: repeat(3, 1fr);
+        ${({ max }) => max ? 
+        `grid-template-columns: repeat(${max}, 1fr)` :
+        'grid-template-columns: repeat(4, 1fr)'
+        }
     }
 `;
