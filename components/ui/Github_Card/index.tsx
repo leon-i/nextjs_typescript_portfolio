@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaStar, FaCodeBranch } from 'react-icons/fa';
 import { Wrapper, InnerWrapper, Icons, Framework } from "./styles";
-import { GithubResponse as Props } from "../../../interfaces";
+import { GithubResponse as Props } from "@interfaces";
 
 export const GithubCard : React.FC<Props> = ({ name,
 description,

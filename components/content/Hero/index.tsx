@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { Flex, Wrapper, Buttons, ImageWrapper } from "./styles";
-import { Button } from "../../ui";
+import { Button } from "@ui";
 
 export const Hero : React.FC = () => (
     <Flex>

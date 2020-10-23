@@ -1,7 +1,7 @@
 import React from 'react';
 import Link from 'next/link'
 import {StyledHeader, Logo, NavLinks} from "./styles";
-import {Emoji} from '../../ui';
+import {Emoji} from '@ui';
 
 export const Header : React.FC = () => (
     <StyledHeader>

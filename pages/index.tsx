@@ -1,7 +1,7 @@
 import React from 'react';
-import { Layout } from "../components/skeleton";
-import { Hero, Projects, OpenSource, Skills } from "../components/content";
-import { GithubResponse, OpenSourceProps as Props } from "../interfaces";
+import { Layout } from "@skeleton";
+import { Hero, Projects, OpenSource, Skills } from "@content";
+import { GithubResponse, OpenSourceProps as Props } from "@interfaces";
 
 export default function Home(props : Props) {
   return (

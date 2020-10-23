@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const Section = styled.div`
+export const Section = styled.section`
     padding: 0 4em;
     margin-bottom: 4em;
     

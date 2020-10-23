@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Wrapper, InnerWrapper, Flex, Icons, Skills } from "./styles";
-import { Project as Props } from "../../../interfaces";
+import { Project as Props } from "@interfaces";
 
 export const ProjectCard : React.FC<Props> = ({ name,
 description,
