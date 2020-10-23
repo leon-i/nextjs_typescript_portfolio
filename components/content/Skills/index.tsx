@@ -1,22 +1,16 @@
 import React from 'react';
-import {DiJsBadge,
-SiTypescript,
-DiRuby,
+import {DiJsBadge, DiRuby, DiReact, DiHtml5, DiCss3 } from 'react-icons/di';
+import {SiTypescript,
 SiGo,
-DiReact,
 SiRedux,
 SiVueDotJs,
-DiHtml5,
-DiCss3,
 SiWebpack,
 SiRails,
-FaNodeJs,
 SiPostgresql,
 SiMongodb,
-FaAws,
-FaGitAlt,
 SiHeroku,
-SiNetlify} from "react-icons/all";
+SiNetlify} from 'react-icons/si';
+import {FaNodeJs, FaAws, FaGitAlt} from 'react-icons/fa';
 import {ListWrapper, List} from "./styles";
 import {Section, Skill} from "../../ui/";
 
