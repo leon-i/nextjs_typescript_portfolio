@@ -38,6 +38,11 @@ This is a WIP repo that will be updated as I rework my portfolio.
 * [x] Mobile view  
 * [x] Hover effects on open source contribution cards  
   
+### Skills  
+* [x] Desktop view
+* [x] Tablet view  
+* [x] Mobile view  
+  
 ## In Progress  
   
 **Components/Sections**
