@@ -8,6 +8,12 @@ export interface Project {
     liveUrl : string;
 }
 
+export interface Social {
+    linkedIn: string;
+    angelList: string;
+    github: string;
+}
+
 export interface GithubResponse {
     name : string;
     description : string;

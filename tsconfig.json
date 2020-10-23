@@ -19,6 +19,7 @@
     "jsx": "preserve",
     "baseUrl": ".",
     "paths": {
+      "@constants": ["./constants"],
       "@content": ["./components/content"],
       "@skeleton": ["./components/skeleton"],
       "@ui": ["./components/ui"],
