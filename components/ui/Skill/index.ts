@@ -19,6 +19,8 @@ export const Skill = styled.li`
     }
     
     @media (max-width: 576px) {
+        margin-top: 1em;
+        
         svg, img {
             height: 56px;
             width: 56px;

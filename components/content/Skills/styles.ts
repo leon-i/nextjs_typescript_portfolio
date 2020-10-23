@@ -14,14 +14,14 @@ export const List  = styled.ul`
     flex-direction: row;
     justify-content: space-evenly;
     flex-wrap: wrap;
-    padding: 2em;
+    padding: 2em 3em 1em 3em;
     margin: 0;
     background: rgba(0, 0, 0, 0.05);
     
     h4 {
         position: absolute;
-        top: 0.5em;
-        left: 0.5em;
+        top: 1em;
+        left: 1em;
         color: #000;
     }
     
