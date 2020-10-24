@@ -47,26 +47,36 @@ export const Wrapper = styled.div`
         bottom: 0;
     }
     
-    ${props => props.backgroundUrl && `
-        .background-img {
-            position: absolute;
-            top: 0;
-            right: 0;
-            left: 0;
-            bottom: 0;
-            background-image: url(${props.backgroundUrl}), 
-                linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34));
-            background-size: cover;
-            background-position: 20% 50%;
-            background-blend-mode: darken;
-        }
-    `}
-    
     &:hover {
         border-right: 1px solid rgba(0, 0, 0, 0.8);
         border-bottom: 1px solid rgba(0, 0, 0, 0.8);
         box-shadow: 3.5px 3.5px 0px 0px rgba(0,0,0,0.8);
         transition: ease-in-out 0.2s;
+    }
+`;
+
+export const ImageWrapper = styled.div`
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    img {
+        height: 100%;
+        width: 100%;
+        object-position: 20% 50%;
+        object-fit: cover;
+    }
+    
+    &::after {
+        content: '';
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background: linear-gradient(rgba(0, 0, 0, 0.34), rgba(0, 0, 0, 0.34));
     }
 `;
 

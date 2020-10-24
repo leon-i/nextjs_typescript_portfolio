@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
-import { Wrapper, InnerWrapper, Flex, Icons, Skills } from "./styles";
+import { Wrapper, ImageWrapper, InnerWrapper, Flex, Icons, Skills } from "./styles";
 import { Project as Props } from "@interfaces";
 
 export const ProjectCard : React.FC<Props> = ({ name,
@@ -10,8 +10,13 @@ imgPath,
 alt,
 githubUrl,
 liveUrl}) => (
-    <Wrapper backgroundUrl={imgPath}>
-        <span role='img' aria-label={alt} className='background-img' />
+    <Wrapper>
+        <ImageWrapper>
+            <picture>
+                <source srcSet={`${imgPath}.webp`} />
+                <img src={`${imgPath}.jpg`} alt={alt} height='240' width='480' />
+            </picture>
+        </ImageWrapper>
         <InnerWrapper>
             <Flex>
                 <h4>{name}</h4>
