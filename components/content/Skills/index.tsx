@@ -71,7 +71,10 @@ export const Skills : React.FC = () => (
                     <p>Rails</p>
                 </Skill>
                 <Skill>
-                    <img src='/expressjs.svg' alt='expressjs-icon' />
+                    <img src='/expressjs.svg'
+                         alt='expressjs-icon'
+                         height='64'
+                         width='64' />
                     <p>Express</p>
                 </Skill>
                 <Skill>

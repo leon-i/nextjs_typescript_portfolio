@@ -1,6 +1,6 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
-import { Flex, Wrapper, Buttons, ImageWrapper } from "./styles";
+import { Flex, Wrapper, Buttons, Image } from "./styles";
 import { Button } from "@ui";
 import { SocialLinks } from "@constants";
 
@@ -21,8 +21,6 @@ export const Hero : React.FC = () => (
                 </Button>
             </Buttons>
         </Wrapper>
-        <ImageWrapper>
-            <img src='/developer.svg' alt='developer-img' />
-        </ImageWrapper>
+            <Image src='/developer.svg' alt='developer-img' height='200' width='480' />
     </Flex>
 );

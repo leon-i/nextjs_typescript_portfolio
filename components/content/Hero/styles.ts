@@ -65,23 +65,16 @@ export const Buttons = styled.div`
         flex-direction: column;
         width: 100%;
         
-        button:first-of-type {
+        a:first-of-type {
             margin-bottom: 1em;
         }
     }
 `
 
-export const ImageWrapper = styled.div`
-    height: 200px;
-    
-    img {
-        height: 100%;
-    }
-    
+export const Image = styled.img`
     @media (max-width: 992px) {
         margin-top: 2em;
         margin-left: 0;
-        height: 180px;
     }
     
     @media (max-width: 576px) {

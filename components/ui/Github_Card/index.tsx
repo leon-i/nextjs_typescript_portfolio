@@ -13,7 +13,11 @@ starsUrl,
 forksUrl,
 framework}) => (
     <Wrapper>
-        <img src={avatarUrl} alt={`${name.split('/').join('-')}-avatar`} />
+        <img
+            src={avatarUrl}
+            alt={`${name.split('/').join('-')}-avatar`}
+            height='40'
+            width='40' />
         <InnerWrapper>
                 <h4>{name}</h4>
                 <p>{description}</p>
