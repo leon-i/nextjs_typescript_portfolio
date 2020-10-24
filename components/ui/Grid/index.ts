@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const Grid = styled.div`
+interface GridProps {
+        max?: number | undefined;
+}
+
+export const Grid = styled.div<GridProps>`
     display: grid;
     align-items: center;
     grid-template-columns: repeat(1, 1fr);

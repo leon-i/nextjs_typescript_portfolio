@@ -1,6 +1,10 @@
 import styled from 'styled-components';
 
-export const Button  = styled.a`
+interface ButtonProps {
+    secondary?: boolean;
+}
+
+export const Button  = styled.a<ButtonProps>`
     min-width: 140px;
     font-size: 1.1em;
     text-align: center;
@@ -29,7 +33,7 @@ export const Button  = styled.a`
         transition: ease-in-out 0.2s;
     }
     
-    ${props => props.secondary && `
+    ${({ secondary }) => secondary && `
         background: #6258e6;
     `}
 `;
