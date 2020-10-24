@@ -7,7 +7,7 @@ export const ProjectInfo : Project[] = [
             'video/thumbnail upload, ' +
             'as well as video search by title/uploader.',
         skills: ['React', 'Redux', 'Ruby on Rails', 'PostgreSQL', 'AWS'],
-        imgPath: '/viewtube.jpg',
+        imgPath: '/viewtube.webp',
         alt: 'viewtube-img',
         githubUrl: 'https://github.com/leon-i/ViewTube',
         liveUrl: 'https://viewtubeapp.herokuapp.com/#/'
@@ -16,7 +16,7 @@ export const ProjectInfo : Project[] = [
         name: 'Creative-Runeterra',
         description: 'Single-page custom card creator for Legends of Runeterra. Includes custom user input detection to allow for inline styling and resizable/movable user-uploaded images.',
         skills: ['React', 'Redux', 'TypeScript'],
-        imgPath: '/creative_runeterra.jpg',
+        imgPath: '/creative_runeterra.webp',
         alt: 'creative-runeterra-img',
         githubUrl: 'https://github.com/leon-i/LoR_Cardmaker',
         liveUrl: 'https://creative-runeterra.netlify.app/#/'
@@ -25,7 +25,7 @@ export const ProjectInfo : Project[] = [
         name: 'Divekicker',
         description: 'Retro action-platformer/infinite runner. Features include custom physics, sprites, and animations.',
         skills: ['HTML5 Canvas', 'JavaScript'],
-        imgPath: '/divekicker.jpg',
+        imgPath: '/divekicker.webp',
         alt: 'divekicker-img',
         githubUrl: 'https://github.com/leon-i/Divekicker',
         liveUrl: 'https://leon-i.github.io/Divekicker/'
@@ -34,7 +34,7 @@ export const ProjectInfo : Project[] = [
         name: 'Streamlined',
         description: 'Service that provides the streaming location for a searched Movie/TV Show. Search coverage includes Netflix, Hulu, HBO, and Amazon Prime Video.',
         skills: ['React', 'Redux', 'Express.js', 'Node.js', 'MongoDB'],
-        imgPath: '/streamlined.jpg',
+        imgPath: '/streamlined.webp',
         alt: 'streamlined-img',
         githubUrl: 'https://github.com/leon-i/Streamlined',
         liveUrl: 'http://streamlinedapp.herokuapp.com/#/'

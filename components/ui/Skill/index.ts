@@ -7,7 +7,7 @@ export const Skill = styled.li`
     margin-top: 0.5em;
     color: #fff;
     
-    svg, img {
+    svg {
         height: 64px;
         width: 64px;
         margin: 0 auto;

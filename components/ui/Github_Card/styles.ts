@@ -14,8 +14,6 @@ export const Wrapper = styled.div`
     
     img {
         position: absolute;
-        height: 40px;
-        width: 40px;
         z-index: 10;
         top: 0;
         right: 0;
