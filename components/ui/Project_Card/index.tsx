@@ -13,7 +13,7 @@ liveUrl}) => (
     <Wrapper>
         <ImageWrapper>
             <picture>
-                <source srcSet={`${imgPath}.webp`} />
+                <source srcSet={`${imgPath}.webp`} type='image/webp' />
                 <img src={`${imgPath}.jpg`} alt={alt} height='240' width='480' />
             </picture>
         </ImageWrapper>
