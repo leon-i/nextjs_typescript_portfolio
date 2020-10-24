@@ -1,5 +1,10 @@
 import styled from 'styled-components';
 
+interface ListProps {
+    secondary?: boolean;
+    style?: object;
+}
+
 export const ListWrapper = styled.div`
     max-width: 980px;
     margin: 0 auto;
@@ -12,7 +17,7 @@ export const ListWrapper = styled.div`
     }
 `;
 
-export const List  = styled.ul`
+export const List  = styled.ul<ListProps>`
     position: relative;
     display: flex;
     flex-direction: row;
@@ -33,7 +38,7 @@ export const List  = styled.ul`
         color: #e8175d;
     }
     
-    ${props => props.secondary && `
+    ${({ secondary }) => secondary && `
         background: #6258e6;
         
         h4, svg, p {
