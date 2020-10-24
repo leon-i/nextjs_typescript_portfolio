@@ -52,6 +52,8 @@ export const InnerWrapper = styled.div`
     p {
         width: 95%;
         font-size: 0.875em;
+        line-height: 20px;
+        margin-top: calc(1em - 1px)
     }
 `;
 

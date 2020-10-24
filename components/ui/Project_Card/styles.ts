@@ -15,27 +15,6 @@ export const Wrapper = styled.div`
     transition: ease-in-out 0.2s;
     cursor: pointer;
     
-    h4 {
-        padding: 0.2em 0.5em 0.32em 0.5em;
-        background: #6258e6;
-        border-radius: 2px;
-    }
-    
-    h4::after {
-        content: '';
-        display: block;
-        border-bottom: 2px solid #fff;
-    }
-        
-    p {
-        flex: 1 auto;
-        font-size: 0.825em;
-        padding: 0.2em 0.5em;
-        background: #6258e6;
-        border-radius: 2px;
-        opacity: 0.9;
-    }
-    
     .card-link {
         position: absolute;
         height: 100%;
@@ -83,6 +62,35 @@ export const ImageWrapper = styled.div`
 export const InnerWrapper = styled.div`
     position: relative;
     height: 100%;
+    
+    h4 {
+        padding: 0.2em 0.5em 0.32em 0.5em;
+        background: #6258e6;
+        border-radius: 2px;
+    }
+    
+    h4::after {
+        content: '';
+        display: block;
+        border-bottom: 2px solid #fff;
+    }
+        
+    p {
+        flex: 1 auto;
+        font-size: 0.825em;
+        line-height: 18px;
+        padding: 0.2em 0.5em;
+        background: #6258e6;
+        border-radius: 2px;
+        opacity: 0.9;
+    }
+    
+    @media (max-width: 992px) {
+        p {
+            font-size: 0.875em;
+            line-height: 20px;
+        }
+    }
 `
 
 export const Flex = styled.div`

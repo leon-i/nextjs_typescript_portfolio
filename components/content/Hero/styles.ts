@@ -4,7 +4,7 @@ export const Flex = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 4em 0;
+    padding: 3.5em 0;
     max-width: 980px;
     margin: 0px auto;
     
@@ -23,6 +23,9 @@ export const Wrapper = styled.div`
     align-items: flex-start;
     
     p {
+        width: 90%;
+        line-height: 22px;
+        margin-top: calc(1em - 2px);
         opacity: 0.65;
     }
     
@@ -30,7 +33,7 @@ export const Wrapper = styled.div`
         align-items: center;
         
         p {
-            width: 80%;
+            width: 100%;
             text-align: center;
         }
     }
@@ -38,10 +41,6 @@ export const Wrapper = styled.div`
     @media (max-width: 576px) {
         h1 {
             text-align: center;
-        }
-        
-        p {
-            width: 100%;
         }
     }
 `;
@@ -72,6 +71,8 @@ export const Buttons = styled.div`
 `
 
 export const Image = styled.img`
+    margin-top: 12px;
+    
     @media (max-width: 992px) {
         margin-top: 2em;
         margin-left: 0;
