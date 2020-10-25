@@ -5,10 +5,12 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build && next export",
-    "start": "next start"
+    "start": "next start",
+    "export": "cross-env NEXT_EXPORT=true next build && cross-env NEXT_EXPORT=true next export"
   },
   "dependencies": {
     "next": "9.5.5",
+    "next-offline": "^5.0.2",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-icons": "^3.11.0",
@@ -19,6 +21,7 @@
     "@types/react": "^16.9.52",
     "@types/styled-components": "^5.1.4",
     "babel-plugin-styled-components": "^1.11.1",
+    "cross-env": "^7.0.2",
     "typescript": "^4.0.3"
   }
 }
