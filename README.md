@@ -1,5 +1,6 @@
 # Portfolio (In Devlopment)  
   
+[Live site](https://leon-i.netlify.app/)  
 This is a WIP repo that will be updated as I rework my portfolio.  
   
 ## Tech/Tools Used  
@@ -7,6 +8,7 @@ This is a WIP repo that will be updated as I rework my portfolio.
 * TypeScript  
 * Styled Components  
 * react-icons  
+* Netlify  
 * Eslint (TBD)  
 * Prettier (TBD)  
   
