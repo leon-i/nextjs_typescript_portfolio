@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 
 interface ListProps {
+    listTitle: string;
     secondary?: boolean;
     style?: object;
 }
@@ -27,10 +28,12 @@ export const List  = styled.ul<ListProps>`
     margin: 0;
     background: rgba(0, 0, 0, 0.025);
     
-    h4 {
+    &::before {
+        content: '${({ listTitle }) => listTitle}';
         position: absolute;
         top: 1em;
         left: 1em;
+        font-weight: bold;
         color: #000;
     }
     
@@ -41,12 +44,8 @@ export const List  = styled.ul<ListProps>`
     ${({ secondary }) => secondary && `
         background: #6258e6;
         
-        h4, svg, p {
+        &::before, svg, p {
             color: #fff;
-        }
-        
-        h4::after {
-            border-bottom: 2.5px solid #fff;
         }
     `}
 `;

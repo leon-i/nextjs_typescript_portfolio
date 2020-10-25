@@ -1,6 +1,7 @@
 import React from 'react';
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 import { Wrapper, ImageWrapper, InnerWrapper, Flex, Icons, Skills } from "./styles";
+import { CardLink } from "../Card_Link";
 import { Project as Props } from "@interfaces";
 
 export const ProjectCard : React.FC<Props> = ({ name,
@@ -19,13 +20,13 @@ liveUrl}) => (
         </ImageWrapper>
         <InnerWrapper>
             <Flex>
-                <h4>{name}</h4>
+                <h3>{name}</h3>
                 <Icons>
-                    <a href={githubUrl} target='_blank' rel='noopener noreferrer'>
+                    <a href={githubUrl}
+                       target='_blank'
+                       rel='noopener noreferrer'
+                       aria-label={`${name}-github`}>
                         <FaGithub />
-                    </a>
-                    <a href={liveUrl} target='_blank' rel='noopener noreferrer'>
-                        <FaExternalLinkAlt style={{marginTop: '-2px'}} />
                     </a>
                 </Icons>
             </Flex>
@@ -38,6 +39,6 @@ liveUrl}) => (
                 }
             </Skills>
         </InnerWrapper>
-        <a href={liveUrl} target='_blank' rel='noopener noreferrer' className='card-link' />
+        <CardLink href={liveUrl} target='_blank' rel='noopener noreferrer' aria-label={`${name}-live`} />
     </Wrapper>
 )

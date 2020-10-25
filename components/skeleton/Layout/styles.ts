@@ -39,7 +39,7 @@ export const GlobalStyle = createGlobalStyle`
     }
     
     h3 {
-        font-size: 1.2em;
+        font-size: 1.15em;
         margin: 0;
         padding: 0;
     }

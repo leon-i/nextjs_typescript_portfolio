@@ -16,17 +16,6 @@ export const Wrapper = styled.div`
     transition: ease-in-out 0.2s;
     cursor: pointer;
     
-    .card-link {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        z-index: 1;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-    }
-    
     &:hover {
         border-right: 1px solid rgba(0, 0, 0, 0.8);
         border-bottom: 1px solid rgba(0, 0, 0, 0.8);
@@ -64,13 +53,13 @@ export const InnerWrapper = styled.div`
     position: relative;
     height: 100%;
     
-    h4 {
+    h3 {
         padding: 0.2em 0.5em 0.32em 0.5em;
         background: #6258e6;
         border-radius: 2px;
     }
     
-    h4::after {
+    h3::after {
         content: '';
         display: block;
         border-bottom: 2px solid #fff;
@@ -103,14 +92,11 @@ export const Flex = styled.div`
 
 export const Icons = styled.div`
     position: relative;
-    display: flex;
-    flex-direction: row;
-    align-items: center;
     z-index: 2;
     
     svg {
-        font-size: 20px;
-        margin-left: 0.7em;
+        font-size: 1.5em;
+        margin-left: 0.5em;
         transition: ease-in-out 0.2s;
         
         &:hover {

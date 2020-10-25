@@ -7,13 +7,22 @@ export const Footer : React.FC = () => (
     <StyledFooter>
         <span>© Isak Leon 2020</span>
         <SocialNav>
-            <a href={SocialLinks.linkedIn} target='_blank' rel='noopener noreferrer'>
+            <a href={SocialLinks.linkedIn}
+               target='_blank'
+               rel='noopener noreferrer'
+               aria-label='footer-linkedin-link'>
                 <FaLinkedin />
             </a>
-            <a href={SocialLinks.angelList} target='_blank' rel='noopener noreferrer'>
+            <a href={SocialLinks.angelList}
+               target='_blank'
+               rel='noopener noreferrer'
+               aria-label='footer-angellist-link'>
                 <FaAngellist />
             </a>
-            <a href={SocialLinks.github} target='_blank' rel='noopener noreferrer'>
+            <a href={SocialLinks.github}
+               target='_blank'
+               rel='noopener noreferrer'
+               aria-label='footer-github-link'>
                 <FaGithub />
             </a>
         </SocialNav>
