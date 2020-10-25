@@ -14,7 +14,7 @@ export const Hero : React.FC = () => (
                 I am passionate about creating projects and writing code that I can be proud of.
             </p>
             <Buttons>
-                <Button>Resume</Button>
+                <Button href='/Isak_Leon_Resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</Button>
                 <Button secondary href={SocialLinks.github} target='_blank' rel='noopener noreferrer'>
                     <FaGithub />
                     Github

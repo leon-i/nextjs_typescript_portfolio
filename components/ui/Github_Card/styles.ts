@@ -21,16 +21,6 @@ export const Wrapper = styled.div`
         border-radius: 0px 2px 0px 2px;
     }
     
-    .card-link {
-        position: absolute;
-        height: 100%;
-        width: 100%;
-        top: 0;
-        right: 0;
-        left: 0;
-        bottom: 0;
-    }
-    
     &:hover {
         border: 1px solid transparent;
         box-shadow: 3.5px 3.5px 0px 0px rgba(0,0,0,0.8);
@@ -42,7 +32,7 @@ export const InnerWrapper = styled.div`
     position: relative;
     height: 100%;
     
-    h4 {
+    h3 {
         max-width: 92%;
         overflow: hidden;
         white-space: nowrap;

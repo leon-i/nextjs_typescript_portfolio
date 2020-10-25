@@ -18,8 +18,8 @@ export const Skills : React.FC = () => (
     <Section>
         <h2>Skills</h2>
         <ListWrapper>
-            <List style={{ borderRadius: '2px 2px 0 0' }}>
-                <h4>Languages</h4>
+            <List listTitle='Languages'
+                  style={{ borderRadius: '2px 2px 0 0' }}>
                 <Skill>
                     <DiJsBadge title='JavaScript' />
                     <p>JavaScript</p>
@@ -37,8 +37,8 @@ export const Skills : React.FC = () => (
                     <p>Go</p>
                 </Skill>
             </List>
-            <List secondary>
-                <h4>Frontend</h4>
+            <List secondary
+                  listTitle='Frontend'>
                 <Skill>
                     <DiReact title='React' />
                     <p>React</p>
@@ -64,8 +64,7 @@ export const Skills : React.FC = () => (
                     <p>Webpack</p>
                 </Skill>
             </List>
-            <List>
-                <h4>Backend</h4>
+            <List listTitle='Backend'>
                 <Skill>
                     <SiRails title='Rails' />
                     <p>Rails</p>
@@ -94,8 +93,9 @@ export const Skills : React.FC = () => (
                     <p>AWS</p>
                 </Skill>
             </List>
-            <List secondary style={{ borderRadius: '0 0 2px 2px' }}>
-                <h4>Other</h4>
+            <List secondary
+                  style={{ borderRadius: '0 0 2px 2px' }}
+                  listTitle='Other'>
                 <Skill>
                     <FaGitAlt title='Git' />
                     <p>Git</p>
