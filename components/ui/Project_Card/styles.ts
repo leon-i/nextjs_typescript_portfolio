@@ -12,6 +12,7 @@ export const Wrapper = styled.div`
     border-bottom: 1px solid rgba(0, 0, 0, 0.7);
     border-radius: 2px;
     box-shadow: 5.5px 5.5px 0px 0px rgba(0,0,0,0.8);
+    overflow: hidden;
     transition: ease-in-out 0.2s;
     cursor: pointer;
     
