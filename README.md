@@ -1,5 +1,6 @@
 # Portfolio (In Devlopment)  
   
+[Live site](https://leon-i.netlify.app/)  
 This is a WIP repo that will be updated as I rework my portfolio.  
   
 ## Tech/Tools Used  
@@ -7,6 +8,7 @@ This is a WIP repo that will be updated as I rework my portfolio.
 * TypeScript  
 * Styled Components  
 * react-icons  
+* Netlify  
 * Eslint (TBD)  
 * Prettier (TBD)  
   
@@ -16,6 +18,7 @@ This is a WIP repo that will be updated as I rework my portfolio.
 <img width="1247" alt="Screen Shot 2020-10-19 at 10 46 32 PM" src="https://user-images.githubusercontent.com/56734437/96534051-fe705d00-125c-11eb-9246-0e175a8c7a0b.png">  
 <img width="1244" alt="Screen Shot 2020-10-23 at 9 46 30 AM" src="https://user-images.githubusercontent.com/56734437/97012049-72d52580-1515-11eb-91c2-51c45ccea3fe.png">  
 <img width="1290" alt="Screen Shot 2020-10-23 at 11 43 08 AM" src="https://user-images.githubusercontent.com/56734437/97024642-0c580380-1525-11eb-80a4-29e48982e077.png">  
+<img width="660" alt="Screen Shot 2020-10-24 at 7 56 14 PM" src="https://user-images.githubusercontent.com/56734437/97095865-123c0a80-1633-11eb-8781-8b1a920fcab1.png">  
   
 ### Header  
 * [x] Desktop view  
