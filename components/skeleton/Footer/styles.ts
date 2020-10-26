@@ -19,6 +19,7 @@ export const StyledFooter = styled.footer`
         justify-content: flex-start;
         height: 110px;
         padding: 1em 4em;
+        padding-bottom: env(safe-area-inset-bottom);
         
         span {
             margin-bottom: 1em;
