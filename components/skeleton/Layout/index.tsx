@@ -1,6 +1,6 @@
 import React from 'react';
 import Head from 'next/head';
-import {GlobalStyle} from "./styles";
+import {GlobalStyle, Main} from "./styles";
 import {Header} from '../Header';
 import {Footer} from "../Footer";
 
@@ -19,8 +19,10 @@ export const Layout : React.FC<Props> = ({ children }) => (
             <link rel='manifest' href='/manifest.json' />
         </Head>
         <GlobalStyle />
-        <Header />
-            {children}
-        <Footer />
+        <Main>
+            <Header />
+                {children}
+            <Footer />
+        </Main>
     </>
 )
