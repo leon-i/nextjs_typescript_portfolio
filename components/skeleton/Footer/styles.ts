@@ -17,8 +17,8 @@ export const StyledFooter = styled.footer`
     @media (max-width: 576px) {
         flex-direction: column;
         justify-content: flex-start;
-        height: 110px;
-        padding: 2em 4em;
+        height: 120px;
+        padding: 1em 4em;
         padding-bottom: env(safe-area-inset-bottom);
         
         span {
