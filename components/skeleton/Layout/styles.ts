@@ -1,8 +1,9 @@
-import { createGlobalStyle } from 'styled-components';
+import styled, { createGlobalStyle } from 'styled-components';
 
 export const GlobalStyle = createGlobalStyle`
     html,
     body {
+      min-height: 100vh;
       padding: 0;
       margin: 0;
       font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -48,5 +49,15 @@ export const GlobalStyle = createGlobalStyle`
         font-size: 1em;
         margin: 0;
         padding: 0;
+    }
+`;
+
+export const Main = styled.main`
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    
+    footer {
+        align-self: flex-end;
     }
 `;

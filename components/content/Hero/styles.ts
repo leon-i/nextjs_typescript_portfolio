@@ -6,13 +6,13 @@ export const Flex = styled.div`
     justify-content: space-between;
     padding: 3.5em 0;
     max-width: 980px;
-    margin: 0px auto;
+    margin: 70px auto 0px auto;
     
     @media (max-width: 992px) {
         flex-direction: column;
         align-items: center;
         max-width: 100%;
-        margin: 0;
+        margin: 70px 0 0 0;
         padding: 4em;
     }
 `
