@@ -70,13 +70,10 @@ export const Buttons = styled.div`
     }
 `
 
-export const ImageWrapper = styled.div`
+export const Image = styled.img`
+    min-height: 200px;
+    min-width: 480px;
     margin-top: 12px;
-    
-    img {
-        min-height: 200px;
-        min-width: 480px;
-    }
     
     @media (max-width: 992px) {
         margin-top: 2em;
