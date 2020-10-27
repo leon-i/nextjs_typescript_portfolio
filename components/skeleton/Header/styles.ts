@@ -50,12 +50,12 @@ export const NavLinks = styled.nav`
     
     a {
         margin-left: 4em;
-        transition: ease-in-out 0.2s
+        transition: ease-in-out 0.1s;
     }
     
     a:hover {
         color: #e8175d;
-        transition: ease-in-out 0.2s
+        transition: ease-in-out 0.1s;
     }
     
     @media (max-width: 576px) {

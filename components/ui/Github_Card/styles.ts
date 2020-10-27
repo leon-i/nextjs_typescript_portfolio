@@ -9,7 +9,7 @@ export const Wrapper = styled.div`
     border: 1px solid rgba(0, 0, 0, 0.05);
     border-radius: 2px;
     box-shadow: 5.5px 5.5px 0px 0px rgba(0,0,0,0.8);
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.1s;
     cursor: pointer;
     
     img {
@@ -24,7 +24,7 @@ export const Wrapper = styled.div`
     &:hover {
         border: 1px solid transparent;
         box-shadow: 3.5px 3.5px 0px 0px rgba(0,0,0,0.8);
-        transition: ease-in-out 0.2s;
+        transition: ease-in-out 0.1s;
     }
 `;
 
@@ -54,11 +54,11 @@ export const Icons = styled.div`
     
     a {
         margin-right: 1em;
-        transition: ease-in-out 0.2s;
+        transition: ease-in-out 0.1s;
         
         &:hover > span, &:hover > svg {
             color: #e8175d;
-            transition: ease-in-out 0.2s;
+            transition: ease-in-out 0.1s;
         }
     }
     
