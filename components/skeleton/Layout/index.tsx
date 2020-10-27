@@ -14,6 +14,7 @@ export const Layout : React.FC<Props> = ({ children }) => (
             <title>Isak Leon | Software Engineer</title>
             <meta name="description"
                   content="Isak Leon | Software Engineer | Portfolio"/>
+            <meta name="theme-color" content="#317EFB" />
             <meta name="viewport"
                   content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
             <meta property='og:title' content='Isak Leon | Software Engineer' />
