@@ -1,68 +1,29 @@
-# Portfolio (In Devlopment)  
+# Portfolio (Done!)  
   
 [Live site](https://leon-i.netlify.app/)  
-This is a WIP repo that will be updated as I rework my portfolio.  
+~~This is a WIP repo that will be updated as I rework my portfolio.~~  
+Update: the site is now finished :)  
   
 ## Tech/Tools Used  
 * Next.js SSG  
 * TypeScript  
 * Styled Components  
 * react-icons  
+* next-offline (PWA)  
 * Netlify  
 * Eslint (TBD)  
 * Prettier (TBD)  
   
-## Current Progress  
+## Home Page + Lighthouse Scores  
   
-<img width="1256" alt="Screen Shot 2020-10-13 at 7 27 36 PM" src="https://user-images.githubusercontent.com/56734437/96068951-2d588e80-0e6b-11eb-861d-1b2268058230.png">  
-<img width="1247" alt="Screen Shot 2020-10-19 at 10 46 32 PM" src="https://user-images.githubusercontent.com/56734437/96534051-fe705d00-125c-11eb-9246-0e175a8c7a0b.png">  
-<img width="1244" alt="Screen Shot 2020-10-23 at 9 46 30 AM" src="https://user-images.githubusercontent.com/56734437/97012049-72d52580-1515-11eb-91c2-51c45ccea3fe.png">  
-<img width="1290" alt="Screen Shot 2020-10-23 at 11 43 08 AM" src="https://user-images.githubusercontent.com/56734437/97024642-0c580380-1525-11eb-80a4-29e48982e077.png">  
-<img width="544" alt="Screen Shot 2020-10-26 at 12 52 39 PM" src="https://user-images.githubusercontent.com/56734437/97202698-54c42b00-178a-11eb-931a-fa262629eaf2.png">  
+<img width="1389" alt="Screen Shot 2020-10-27 at 12 37 04 PM" src="https://user-images.githubusercontent.com/56734437/97346508-eb175000-1861-11eb-816c-3fbd4a97b9da.png">  
+<img width="554" alt="Screen Shot 2020-10-27 at 2 32 22 PM" src="https://user-images.githubusercontent.com/56734437/97346447-d470f900-1861-11eb-852b-c5551d7b01b1.png">  
+  
+## TBD/Improvements
   
 ### Header  
-* [x] Desktop view  
-* [x] Tablet view  
-* [ ] Mobile view  
-* [ ] Menu collapses into drawer on mobile
+* [ ] Menu collapses into drawer on mobile  
   
-### Hero  
-* [x] Desktop view
-* [x] Tablet view  
-* [x] Mobile view  
-  
-### Projects  
-* [x] Desktop view
-* [x] Tablet view  
-* [x] Mobile view  
-* [x] Hover effects on project cards  
-  
-### Open Source Contributions  
-* [x] Desktop view
-* [x] Tablet view  
-* [x] Mobile view  
-* [x] Hover effects on open source contribution cards  
-  
-### Skills  
-* [x] Desktop view
-* [x] Tablet view  
-* [x] Mobile view  
-  
-### Footer  
-* [x] Desktop view
-* [x] Tablet view  
-* [x] Mobile view  
-* [x] Social links working
-  
-## In Progress  
-  
-**Components/Sections**
-* PWA    
-  
-**Pages**  
-* About 
-* Contact
-
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
