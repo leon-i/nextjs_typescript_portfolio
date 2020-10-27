@@ -9,7 +9,7 @@ const Wrapper = styled(Section)`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: calc(3.5em + 70px) 4em 3.5em 4em;
+    padding: calc(4em + 70px) 4em 4em 4em;
     margin-bottom: 0;
     
     img {

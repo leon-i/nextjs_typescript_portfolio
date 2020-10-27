@@ -4,7 +4,7 @@ export const Flex = styled.div`
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 3.5em 0;
+    padding: 4em 0;
     max-width: 980px;
     margin: 70px auto 0px auto;
     
@@ -71,6 +71,8 @@ export const Buttons = styled.div`
 `
 
 export const Image = styled.img`
+    min-height: 200px;
+    min-width: 480px;
     margin-top: 12px;
     
     @media (max-width: 992px) {
@@ -81,4 +83,4 @@ export const Image = styled.img`
     @media (max-width: 576px) {
         display: none;
     }
-`
+`;
