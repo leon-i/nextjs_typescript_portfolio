@@ -37,11 +37,11 @@ export const SocialNav = styled.nav`
     svg {
         font-size: 2em;
         margin-left: 1em;
-        transition: ease-in-out 0.2s;
+        transition: ease-in-out 0.1s;
         
         &:hover {
             color: #e8175d;
-            transition: ease-in-out 0.2s;
+            transition: ease-in-out 0.1s;
         }
     }
     
