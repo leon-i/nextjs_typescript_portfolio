@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
+import Image from "next/image";
+import { FaGithub } from 'react-icons/fa';
 import { Wrapper, ImageWrapper, InnerWrapper, Flex, Icons, Skills } from "./styles";
 import { CardLink } from "../Card_Link";
 import { Project as Props } from "@interfaces";
@@ -13,10 +14,7 @@ githubUrl,
 liveUrl}) => (
     <Wrapper>
         <ImageWrapper>
-            <picture>
-                <source srcSet={`${imgPath}.webp`} type='image/webp' />
-                <img src={`${imgPath}.jpg`} alt={alt} height='240' width='480' />
-            </picture>
+            <Image src={imgPath} alt={alt} height='240' width='480' />
         </ImageWrapper>
         <InnerWrapper>
             <Flex>

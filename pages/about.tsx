@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import styled from 'styled-components';
 import { FaLinkedin, FaGithub, FaAngellist } from "react-icons/fa";
 import { Layout } from "@skeleton";
@@ -22,13 +23,6 @@ const Wrapper = styled(Section)`
     @media (max-width: 992px) {
         flex-direction: column-reverse;
         align-items: center;
-        
-        img {
-            flex-order: 0;
-            height: 230px;
-            width: 250px;
-            margin-bottom: 2em;
-        }
     }
     
     @media (max-width: 576px) {
@@ -45,6 +39,8 @@ const Info = styled.div`
     
     @media (max-width: 992px) {
         width: 100%;
+        
+        margin-top: 2em;
     }
 `;
 
@@ -121,10 +117,7 @@ export default function About() {
                         </a>
                     </Social>
                 </Info>
-                <picture>
-                    <source srcSet={'/profile_picture.webp'} type='image/webp' />
-                    <img src='/profile_picture.jpg' alt='profile-picture' height='370px' width='400px' />
-                </picture>
+                <Image src='/profile_picture.jpg' alt='profile-picture' height='300px' width='320px' />
             </Wrapper>
         </Layout>
     )
