@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaGithub } from "react-icons/fa";
 import { Flex, Wrapper, Buttons, Image } from "./styles";
-import { Button } from "@ui";
+import { ButtonLink } from "@ui";
 import { SocialLinks } from "@constants";
 
 export const Hero : React.FC = () => (
@@ -14,11 +14,11 @@ export const Hero : React.FC = () => (
                 I am passionate about creating projects and writing code that I can be proud of.
             </p>
             <Buttons>
-                <Button href='/Isak_Leon_Resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</Button>
-                <Button secondary href={SocialLinks.github} target='_blank' rel='noopener noreferrer'>
+                <ButtonLink href='/Isak_Leon_Resume.pdf' target='_blank' rel='noopener noreferrer'>Resume</ButtonLink>
+                <ButtonLink secondary href={SocialLinks.github} target='_blank' rel='noopener noreferrer'>
                     <FaGithub />
                     Github
-                </Button>
+                </ButtonLink>
             </Buttons>
         </Wrapper>
             <Image src='/developer.svg' alt='developer-img' height='200' width='480' />
