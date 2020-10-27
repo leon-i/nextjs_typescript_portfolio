@@ -58,6 +58,7 @@ const Social = styled.div`
         font-weight: bold;
         margin-right: 2em;
         color: #e8175d;
+        transition: ease-in-out 0.1s;
         
         svg {
             display: inline-block;
@@ -70,6 +71,7 @@ const Social = styled.div`
         }
         
         &:hover {
+            transition: ease-in-out 0.1s;
             opacity: 0.7;
         }
     }

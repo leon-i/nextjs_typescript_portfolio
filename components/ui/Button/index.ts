@@ -14,7 +14,7 @@ const buttonStyles = `
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 2px;
     box-shadow: 5.5px 5.5px 0px 0px rgba(0,0,0,0.8);
-    transition: ease-in-out 0.2s;
+    transition: ease-in-out 0.1s;
     cursor: pointer;
     
     svg {
@@ -30,7 +30,7 @@ const buttonStyles = `
         border: 1px solid transparent;
         opacity: 0.84;
         box-shadow: 3.5px 3.5px 0px 0px rgba(0,0,0,0.8);
-        transition: ease-in-out 0.2s;
+        transition: ease-in-out 0.1s;
     }
 `;
 
