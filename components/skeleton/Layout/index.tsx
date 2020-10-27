@@ -19,7 +19,7 @@ export const Layout : React.FC<Props> = ({ children }) => (
                   content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
             <meta property='og:title' content='Isak Leon | Software Engineer' />
             <meta property='og:type' content='website' />
-            <meta property='og:url' content='https://leon-i.netlify.app/' />
+            <meta property='og:url' content='https://www.isakleon.com/' />
             <meta property='og:image' content="/site.jpg" />
             <meta property='og:description'
                   content='Isak Leon | Software Engineer | Portfolio' />
