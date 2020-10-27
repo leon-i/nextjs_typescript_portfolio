@@ -49,7 +49,7 @@ export const NavLinks = styled.nav`
     justify-content: space-evenly;
     
     a {
-        margin-left: 2.5em;
+        margin-left: 4em;
         transition: ease-in-out 0.2s
     }
     
@@ -58,9 +58,9 @@ export const NavLinks = styled.nav`
         transition: ease-in-out 0.2s
     }
     
-    @media (max-width: 992px) {
+    @media (max-width: 576px) {
         a {
-            margin-left: 1em;
+            margin-left: 2em;
         }
     }
 `;
