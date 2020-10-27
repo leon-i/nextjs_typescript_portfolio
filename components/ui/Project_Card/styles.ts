@@ -33,6 +33,7 @@ export const ImageWrapper = styled.div`
     
     img {
         height: 100%;
+        min-height: 240px;
         width: 100%;
         object-position: 20% 50%;
         object-fit: cover;
