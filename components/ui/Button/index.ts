@@ -4,7 +4,7 @@ interface ButtonProps {
     secondary?: boolean;
 }
 
-export const Button  = styled.a<ButtonProps>`
+const buttonStyles = `
     min-width: 140px;
     font-size: 1.1em;
     text-align: center;
@@ -32,6 +32,18 @@ export const Button  = styled.a<ButtonProps>`
         box-shadow: 3.5px 3.5px 0px 0px rgba(0,0,0,0.8);
         transition: ease-in-out 0.2s;
     }
+`;
+
+export const Button = styled.button<ButtonProps>`
+    ${buttonStyles}
+    
+    ${({ secondary }) => secondary && `
+        background: #6258e6;
+    `}
+`;
+
+export const ButtonLink = styled.a<ButtonProps>`
+    ${buttonStyles}
     
     ${({ secondary }) => secondary && `
         background: #6258e6;

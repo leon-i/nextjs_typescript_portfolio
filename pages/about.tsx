@@ -10,6 +10,7 @@ const Wrapper = styled(Section)`
     flex-direction: row;
     justify-content: space-between;
     padding: calc(3.5em + 70px) 4em 3.5em 4em;
+    margin-bottom: 0;
     
     img {
         border-right: 1px solid rgba(0, 0, 0, 0.7);
@@ -21,7 +22,6 @@ const Wrapper = styled(Section)`
     @media (max-width: 992px) {
         flex-direction: column-reverse;
         align-items: center;
-        padding: calc(4em + 70px) 2em 4em 2em;
         
         img {
             flex-order: 0;
@@ -29,6 +29,10 @@ const Wrapper = styled(Section)`
             width: 250px;
             margin-bottom: 2em;
         }
+    }
+    
+    @media (max-width: 576px) {
+        padding: calc(4em + 70px) 2em 4em 2em;
     }
 `;
 
