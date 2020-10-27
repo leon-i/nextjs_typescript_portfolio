@@ -25,5 +25,5 @@ module.exports = withOffline({
                 destination: '/_next/static/service-worker.js',
             },
         ]
-    }
+    },
 })
