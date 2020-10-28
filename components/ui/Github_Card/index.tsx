@@ -1,4 +1,5 @@
 import React from 'react';
+import Image from "next/image";
 import { FaStar, FaCodeBranch } from 'react-icons/fa';
 import { Wrapper, InnerWrapper, Icons, Framework } from "./styles";
 import { CardLink } from "../Card_Link";
@@ -14,7 +15,7 @@ starsUrl,
 forksUrl,
 framework}) => (
     <Wrapper>
-        <img
+        <Image
             src={avatarUrl}
             alt={`${name.split('/').join('-')}-avatar`}
             height='40'

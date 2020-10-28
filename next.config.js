@@ -25,5 +25,8 @@ module.exports = withOffline({
                 destination: '/_next/static/service-worker.js',
             },
         ]
+    },
+    images: {
+        domains: ['avatars0.githubusercontent.com', 'avatars3.githubusercontent.com']
     }
 })
