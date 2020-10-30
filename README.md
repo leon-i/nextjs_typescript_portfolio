@@ -1,6 +1,6 @@
 # Portfolio (Done!)  
   
-[Live site](https://leon-i.netlify.app/)  
+[Live site](https://www.isakleon.com/)  
 ~~This is a WIP repo that will be updated as I rework my portfolio.~~  
 Update: the site is now finished :)  
   
