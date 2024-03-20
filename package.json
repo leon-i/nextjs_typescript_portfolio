@@ -3,9 +3,9 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev",
-    "build": "next build && next export",
-    "start": "next start",
+    "dev": "env NODE_OPTIONS=--openssl-legacy-provider next dev",
+    "build": "env NODE_OPTIONS=--openssl-legacy-provider next build && next export",
+    "start": "env NODE_OPTIONS=--openssl-legacy-provider next start",
     "export": "cross-env NEXT_EXPORT=true next build && cross-env NEXT_EXPORT=true next export"
   },
   "dependencies": {

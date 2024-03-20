@@ -10,7 +10,7 @@ export const ProjectInfo : Project[] = [
         imgPath: '/viewtube',
         alt: 'viewtube-img',
         githubUrl: 'https://github.com/leon-i/ViewTube',
-        liveUrl: 'https://viewtubeapp.herokuapp.com/#/'
+        liveUrl: 'https://viewtube.up.railway.app/#/'
     },
     {
         name: 'Creative-Runeterra',
@@ -37,7 +37,7 @@ export const ProjectInfo : Project[] = [
         imgPath: '/streamlined',
         alt: 'streamlined-img',
         githubUrl: 'https://github.com/leon-i/Streamlined',
-        liveUrl: 'http://streamlinedapp.herokuapp.com/#/'
+        liveUrl: 'https://streamlined.up.railway.app/#/'
     },
 ]
 
